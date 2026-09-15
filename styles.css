@@ -15,3 +15,177 @@ body{
     line-height: 1.6;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    background-color: #211832;
+    border-bottom: 1px solid #45365d;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+
+.logo{
+    font-family: "Henny Penny", cursive;
+    font-size: 32px;
+    color: #d6a4ff
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.nav-links a{
+    color: #ddd3eb;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #d6a4ff;
+}
+
+.shop-button{
+    background-color: #d6a4ff;
+    color: #211832;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-button:hover{
+    background-color: #7e22ce;
+}
+
+.hero{
+   max-width: 1200px;
+   margin: auto;
+   padding: 100px 30px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.hero h2{
+    font-family: "Henny Penny", cursive;
+    font-size: 55px;
+    color: #d6a4ff;
+    margin-bottom: 30px;
+}
+.hero p{
+   color: #c4b9d4;
+   font-size: 18px;
+   margin-bottom: 30px;
+   max-width: 600px;
+}
+
+.products{
+    background-color: #211832;
+    padding: 80px 30px;
+}
+
+.products h2{
+    text-align: center;
+    font-family: "Henny Penny", cursive;
+    font-size: 40px;
+    color: #d6a4ff;
+    margin-bottom: 50px;
+}
+
+.product-list{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product-item{
+    background-color: #2e1f4d;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover{
+    transform: translateY(-10px);
+    border-color: #a855f7
+}
+
+.product-item img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    padding: 20px;
+    background-color: #211832;
+}
+.product-item h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product-item p{
+    color: #c4b9d4;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-item button{
+    background-color: #a855f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-family: inherit
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.product-item button:hover{
+    background-color: #7e22ce;
+}
+
+.about{
+    max-width: 900px;
+    margin: auto;
+    padding: 90px 30px;
+    text-align: center;
+}
+
+.about h2{
+    font-family: "Henny Penny", cursive;
+    font-size: 40px;
+    color: #d6a4ff;
+    margin-bottom: 30px;
+}
+
+.about p{
+    color: #c4b9d4;
+    font-size: 17px;
+   
+}
