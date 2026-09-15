@@ -1,7 +1,17 @@
-body {
-    font-family: "Henny Penny", cursive;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-family: "Henny Penny", cursive;
+html{
+    scroll-behavior: smooth;
 }
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #15121f;
+    color: white;
+    line-height: 1.6;
+}
+
